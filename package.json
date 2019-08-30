@@ -1,0 +1,54 @@
+{
+  "name": "vue-treemenu",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./src/main.ts",
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "test:unit": "vue-cli-service test:unit",
+    "lint-ts": "node_modules\\.bin\\eslint .\\**\\*.ts",
+    "lint-vue": "node_modules\\.bin\\eslint src\\**\\*.vue",
+    "lint": "eslint src/**/*.{js,vue}"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/deviousreality/vuejs-treemenu.git"
+  },
+  "author": "Dev Simon",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/deviousreality/vuejs-treemenu/issues"
+  },
+  "homepage": "https://github.com/deviousreality/vuejs-treemenu#readme",
+  "devDependencies": {
+    "@babel/core": "7.5.5",
+    "@fromage/cli-plugin-babel": "5.0.75",
+    "@types/jest": "^24.0.18",
+    "@typescript-eslint/eslint-plugin": "2.0.0",
+    "@vue/cli-plugin-babel": "3.11.0",
+    "@vue/cli-plugin-eslint": "3.11.0",
+    "@vue/cli-plugin-typescript": "3.11.0",
+    "@vue/cli-plugin-unit-jest": "3.11.0",
+    "@vue/cli-service": "3.11.0",
+    "@vue/eslint-config-typescript": "4.0.0",
+    "@vue/test-utils": "1.0.0-beta.29",
+    "babel-eslint": "10.0.3",
+    "babel-jest": "24.9.0",
+    "eslint": "5.16.0",
+    "eslint-plugin-import": "2.18.2",
+    "eslint-plugin-typescript": "0.14.0",
+    "eslint-plugin-vue": "5.2.3",
+    "jest": "^24.9.0",
+    "ts-jest": "24.0.2",
+    "typescript": "3.6.2",
+    "vue-eslint-parser": "6.0.4",
+    "vue-template-compiler": "2.6.10"
+  },
+  "dependencies": {
+    "vue": "2.6.10",
+    "vue-cli": "2.9.6",
+    "vue-jest": "3.0.4",
+    "vue-typescript-import-dts": "4.0.0"
+  }
+}
